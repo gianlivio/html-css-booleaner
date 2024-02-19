@@ -10,7 +10,7 @@
   }
 
   
-/* bottom-left-text */
+/* boleaner */
 .booleaner{
     position: absolute;
     bottom: 25px;
@@ -26,4 +26,13 @@
     font-family: "DM Serif Text", serif;
     color: aliceblue;
     font-size: large;
+}
+
+#descrizioni{
+     font-style: italic;
+     font-size: small;
+}
+
+.eheh{
+    color: blue;
 }

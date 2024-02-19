@@ -1,2 +1,29 @@
 /* Header */
 
+
+.container {
+    height: 150px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(122, 122, 207);
+    background-image: url(../img/img/pattern.png);
+  }
+
+  
+/* bottom-left-text */
+.booleaner{
+    position: absolute;
+    bottom: 25px;
+    left:  30px;
+    font-family: "DM Serif Text", serif;
+    color: aliceblue;
+}
+
+.booleaner1{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-family: "DM Serif Text", serif;
+    color: aliceblue;
+    font-size: large;
+}

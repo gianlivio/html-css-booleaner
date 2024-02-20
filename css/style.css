@@ -19,6 +19,7 @@
     color: aliceblue;
 }
 
+/* scritta interna al banner */
 .booleaner1{
     position: absolute;
     bottom: 8px;
@@ -28,11 +29,44 @@
     font-size: large;
 }
 
+/* didascalie immagini */
 #descrizioni{
      font-style: italic;
      font-size: small;
 }
 
+/* the booleaner scritto in blue */
 .eheh{
     color: blue;
 }
+
+/* evidenziatore giallo sul testo */
+.yellow{
+    background-color: yellow;
+}
+
+/* Stili della tabella */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: blue; /* Colore di sfondo per l'intestazione */
+    color: white; /* Colore del testo per l'intestazione */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; <!-- Linea di separazione delle celle --!>
+} 
+
+.riga-dispari {
+    background-color: rgb(51, 176, 190); <!-- colore sfondo riga --!>
+}
+
+.riga-pari {
+    /* Nessuno sfondo speciale per le righe pari, saranno bianche per default */
+}
+

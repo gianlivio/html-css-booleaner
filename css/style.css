@@ -32,7 +32,7 @@
 /* didascalie immagini */
 #descrizioni{
      font-style: italic;
-     font-size: small;
+     font-size: 10px;
 }
 
 /* the booleaner scritto in blue */
@@ -43,6 +43,10 @@
 /* scritte in grigio */
 .grey{
     color: grey;
+}
+
+#miao{
+    font-size: 10px;
 }
 
 /* evidenziatore giallo sul testo */
@@ -71,7 +75,22 @@ th, td {
     background-color: rgb(51, 176, 190); /* colore sfondo riga */
 }
 
-.riga-pari {
-    /* Nessuno sfondo speciale per le righe pari, saranno bianche per default */
+/* footer */
+
+
+
+.image-container {
+    background-image:url(../img/img/monitor.jpg);
+    height: 100px;    
+    text-align: center;
+    color: white;
+    width: 100px;
 }
 
+.image-container2 {
+    background-image:url(../img/img/graph.jpg);
+    height: 100px;    
+    text-align: center;
+    color: white;
+    width: 100px;
+}
